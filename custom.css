@@ -1,0 +1,185 @@
+/* Global */
+
+.sushi{
+    
+    width:100%;
+    border-bottom: 1px solid #DFE2E7;
+}
+
+.bg {
+    
+    
+    width: 100%;
+}
+
+
+.logo {
+  position: relative;
+  max-width: 1.5em;
+}
+
+
+
+/* Links */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+@media (min-width: 550px) {    
+
+a img:hover {
+  opacity: .25;
+}
+
+.nav a:hover {
+    color: #000;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+}}
+
+.viewall {
+    color: #000;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+}
+
+
+/* Construction Elements*/
+
+
+
+#home {
+    margin-top: 1.25em;
+}
+
+#featured img{
+    margin-bottom: 2em;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {    
+#featured {
+    margin-bottom: 10em;
+}}
+
+
+
+/* Navigation: Featured
+*/   
+
+
+/*.nav {
+    text-align: left;
+    vertical-align: text-top;
+    display: none;
+}
+
+.nav-rt  { 
+    height: 4em;
+}
+
+
+
+
+.nav li,  .viewall li  {
+    list-style: none;
+}
+
+.nav-rt, .logo{
+  display: none;
+}
+
+body.nav-open{
+  overflow: hidden;
+}*/
+
+  .nav,
+  .viewall {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .nav li {
+    list-style: none;
+    float: left;
+    padding-right: 3em;
+  }
+  .nav-rt,
+  .logo {
+    display: block;
+  }
+  .nav-rt li {
+    list-style: none;
+    float: left;
+    font-size: .75em;
+    padding-left: 3em;
+    margin-top: -.25em;
+    display: block;
+  }
+ 
+  .viewall li {
+    list-style: none;
+  }
+  .viewall-button {
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+  }
+
+
+@media (min-width: 680px) {
+  .nav,
+  .viewall {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .nav li {
+    list-style: none;
+    float: left;
+    padding-right: 3em;
+  }
+  .nav-rt,
+  .logo {
+    display: block;
+  }
+  .nav-rt li {
+    list-style: none;
+    float: left;
+    font-size: .75em;
+    padding-left: 3em;
+    margin-top: -.25em;
+    display: block;
+  }
+ 
+  .viewall li {
+    list-style: none;
+  }
+  .viewall-button {
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+  }
+
+}
+
+
+
+hr {
+    color: #000;
+    border: 2;
+    height: 2px;
+}
+
+.footer{
+    position:relative;
+    width: 100%;
+    bottom:0px;
+    margin-top: 5em;
+    border-top: 1px #DFE2E7;
+    background: #F2F3F5;
+    
+}
+
+#superfooter{
+    padding-top: 40px;
+     margin-left: 2em;
+}
